@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Gui
+ *
+ */
+module bytebankHerdado {
+}
