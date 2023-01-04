@@ -1,4 +1,5 @@
 package bytebankHerdado;
+// nao pode instanciar dessa classe, pq é abstrata
 // Criando a classe Funcionário
 public abstract class Funcionario { 
 	
@@ -8,9 +9,8 @@ public abstract class Funcionario {
 	private double salario; 
 	
 	// Método para acessar a bonificacao do funcionario
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+	// metodo sem corpo, nao há implementacao aqui
+	public abstract double getBonificacao();
 	
 	// Método para acessar o nome do funcionario
 	public String getNome() {
