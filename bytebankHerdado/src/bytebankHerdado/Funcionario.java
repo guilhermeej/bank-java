@@ -1,6 +1,6 @@
 package bytebankHerdado;
 // Criando a classe Funcionário
-public class Funcionario {
+public abstract class Funcionario { 
 	
 	// Atributos da Classe Funcionario
 	private String nome;
